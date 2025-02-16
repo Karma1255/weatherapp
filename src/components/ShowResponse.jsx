@@ -57,7 +57,7 @@ const ShowResponse = ({weatherInfo}) => {
            <p>Minimum Temperature: {weatherInfo.tempMin}&deg;C</p> 
            <p>Maximum Temperature: {weatherInfo.tempMax}&deg;C</p>
            <p>Humidity: {weatherInfo.humidity}</p>
-           <p> The weather can be described as {weatherInfo.weather}and feels like {weatherInfo.feelsLike}&deg;C </p>
+           <p> The weather can be described as {weatherInfo.weather} and feels like {weatherInfo.feelsLike}&deg;C </p>
            </b>
           </Typography>
         </CardContent>
